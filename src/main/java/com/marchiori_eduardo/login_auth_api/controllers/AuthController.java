@@ -34,7 +34,7 @@ public class AuthController {
         return ResponseEntity.badRequest().build();
     }
 
-    @PostMapping("/resgister")
+    @PostMapping("/register")
     public ResponseEntity register(@RequestBody RegisterRequestDTO body) {
         Optional<User> user =this.repository.findByEmail(body.email());
 
