@@ -1,4 +1,4 @@
-# Login Auth API (Backend)
+# (RASCUNHO) Login Auth API (Backend)
 
 API RESTful desenvolvida com **Spring Boot 4** para gerenciamento de autenticação e usuários. Este projeto serve como o backend robusto para a aplicação de Login.
 
